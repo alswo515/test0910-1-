@@ -21,12 +21,12 @@
         $('#kimContainer').remove()
         $('#kimBox').load(url)
     })
-    
-    $('.h1Nav > h1').on('click', function(e){
+    $('.h1Nav > h1').on('click', function (e) {
         e.preventDefault()
         $('#newContainer').remove()
         $('#newBox').load('main.html')
     })
+
 
 
 

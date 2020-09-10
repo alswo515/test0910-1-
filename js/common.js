@@ -26,6 +26,7 @@
     $('.h1Nav > h1').on('click', function (e) {
         e.preventDefault()
         $('#newContainer').remove()
+         var url = $(this).attr('href')
         $('#newBox').load('main.html')
     })
 
